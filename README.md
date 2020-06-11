@@ -26,20 +26,21 @@ These days, security and privacy policy issues are rising. A lot of people are n
    <pre><code>pip install numpy</code></pre>
 8. Move to SoundDetection directory.
 9. Update the file location, configuration section, and IP address from LANmic in main.py.
-10. Run main.py with python programming language version 3.
-11. Go to Devices section in [uBeac](https://app.ubeac.io/ "uBeac link"), and can notice that live sensor requests for the device are kept updating.
-12. Go to Dashboards section in [uBeac](https://app.ubeac.io/ "uBeac link"), and create a dashboard to lively check the detailed data.
-13. Edit the dashboard. Drag widgets, choose a device for sound detection, and set the sensors.
-14. Move to the command prompt.
-15. Move to MotionCamera directory.
-16. Update the IP address from IP Webcam mobile application and copy the entire html code.
-17. Go to Dashboards section in [uBeac](https://app.ubeac.io/ "uBeac link").
-18. In the dashboard, drag raw file for a widget and go to setting option.
-19. In advanced setting, paste the copied html code.
-20. Check the dashboard with data and warning email.
+10. Update the email account information for the warning message in alarm.py.
+11. Run main.py with python programming language version 3.
+12. Go to Devices section in [uBeac](https://app.ubeac.io/ "uBeac link"), and can notice that live sensor requests for the device are kept updating.
+13. Go to Dashboards section in [uBeac](https://app.ubeac.io/ "uBeac link"), and create a dashboard to lively check the detailed data.
+14. Edit the dashboard. Drag widgets, choose a device for sound detection, and set the sensors.
+15. Move to the command prompt.
+16. Move to MotionCamera directory.
+17. Update the IP address from IP Webcam mobile application and copy the entire html code.
+18. Go to Dashboards section in [uBeac](https://app.ubeac.io/ "uBeac link").
+19. In the dashboard, drag raw file for a widget and go to setting option.
+20. In advanced setting, paste the copied html code.
+21. Check the dashboard with data and test warning email with deliberate noise.
 
 4.What is used in the project?
-----------------------------------
+--------------------------------
 1. Raspberry Pi 3 Model B
 2. uBeac IoT Platform - [uBeac](https://app.ubeac.io/ "uBeac link")
 3. Python programming language - version 3
@@ -49,8 +50,13 @@ These days, security and privacy policy issues are rising. A lot of people are n
 7. LANmic - android mobile application
 8. IP Webcam - android mobile application
 
-5.Where can I get more help?
-----------------------------------
+5.Contribution
+----------------
+* I additionally implemented alarm system in the sound detector and live camera operation. 
+I also modified few mathematical expressions and added unit for each sensor in the sound detector program for the better performance and readability.
+
+6.Where can I get more help?
+------------------------------
 * Use of uBEAC: <https://www.hackster.io/amir-pournasserian/how-to-monitor-your-computer-with-ubeac-b20fdb/>
 * Use of HTML Language: <https://developer.mozilla.org/ko/docs/Web/HTML/>
 * If you have any questions or find any errors of the program, please contact me at <21900421@handong.edu>
