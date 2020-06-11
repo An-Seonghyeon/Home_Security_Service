@@ -1,7 +1,7 @@
 import time
 import smtplib
 
-#emain account configuration section
+#email account configuration section
 TO = '21900421@handong.edu' #email address to recieve the warning message
 GMAIL_USER='an990906@gmail.com' #google email address to to send the warning message
 PASS= 'dks598311' #password for google email account
