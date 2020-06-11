@@ -14,18 +14,28 @@ These days, security and privacy policy issues are rising. A lot of people are n
 
 3.How do I get started?
 -----------------------------
-1. Download or clone the repository
-2. Download the LANmic and IP Webcam android mobile application
-3. Note the IP addresses shown in LANmic and IP Webcam mobile application
+1. Download or clone the repository.
+2. Download the LANmic and IP Webcam android mobile application.
+3. Turn on the LANmic and IP Webcam mobile application, and note the IP addresses shown in two mobile applications.
 4. Create an account for uBeac IoT Platform here: [uBeac](https://app.ubeac.io/ "uBeac link")
-5. Create a gateway with UID, Name, and choose uBeac Multiple Devices as a firmware
-6. Move to the command prompt
-7. Install modules for python program in the command prompt
-   <pre><code>{pip install scipy}</code></pre>
-   <pre><code>{pip install numpy}</code></pre>
-8. Move to SoundDetection directory
-9. Update the file location, configuration section, and IP address from LANmic in main.py
-10. Go to move 
+5. Create a gateway with UID, Name, and choose uBeac Multiple Devices as a firmware.
+6. Move to the command prompt.
+7. Install the following modules for python program in the command prompt.
+   <pre><code>pip install scipy</code></pre>
+   <pre><code>pip install numpy</code></pre>
+8. Move to SoundDetection directory.
+9. Update the file location, configuration section, and IP address from LANmic in main.py.
+10. Run main.py with python programming language version 3.
+11. Go to Devices section in [uBeac](https://app.ubeac.io/ "uBeac link"), and can notice that live sensor requests for the device are kept updating.
+12. Go to Dashboards section in [uBeac](https://app.ubeac.io/ "uBeac link"), and create a dashboard to lively check the detailed data.
+13. Edit the dashboard. Drag widgets, choose a device for sound detection, and set the sensors.
+14. Move to the command prompt.
+15. Move to MotionCamera directory.
+16. Update the IP address from IP Webcam mobile application and copy the entire html code.
+17. Go to Dashboards section in [uBeac](https://app.ubeac.io/ "uBeac link").
+18. In the dashboard, drag raw file for a widget and go to setting option.
+19. In advanced setting, paste the copied html code.
+20. Check the dashboard with data.
 
 4.What is used in the project?
 ----------------------------------
