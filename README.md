@@ -14,12 +14,23 @@ These days, security and privacy policy issues are rising. A lot of people are n
 
 3.How do I get started?
 -----------------------------
-
+1. Download or clone the repository
+2. Download the LANmic and IP Webcam android mobile application
+3. Note the IP addresses shown in LANmic and IP Webcam mobile application
+4. Create an account for uBeac IoT Platform here: [uBeac](https://app.ubeac.io/ "uBeac link")
+5. Create a gateway with UID, Name, and choose uBeac Multiple Devices as a firmware
+6. Move to the command prompt
+7. Install modules for python program in the command prompt
+   :	pip install scipy
+   :	pip install numpy
+8. Move to SoundDetection directory
+9. Update the file location, configuration section, and IP address from LANmic in main.py
+10. Go to move 
 
 4.What is used in the project?
 ----------------------------------
 1. Raspberry Pi 3 Model B
-2. uBeac IoT Platform - [uBeac](https://app.ubeac.io/, "uBeac link")
+2. uBeac IoT Platform - [uBeac](https://app.ubeac.io/ "uBeac link")
 3. Python programming language - version 3
 4. SciPy - module for sound detection program
 5. NumPy - module for sound detection program
