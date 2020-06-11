@@ -5,7 +5,7 @@ Presentation video URL:
 1.What does this project do?
 -------------------------------
 This is a program to check the sound level (amplitude, frequency, max peak) of the surrounding environment in real time.
-If the decibel of the surrounding area is more than 800dB, the program will automatically send the email to warn the current situation.
+If the decibel of the surrounding area is more than 40dB, the program will automatically send the email to warn the current situation.
 It also displays the real time situation of the surrounding environment through the camera.
 All the detailed data are shown in user customized dashboard in uBEAC website.
 
@@ -17,7 +17,7 @@ These days, security and privacy policy issues are rising. A lot of people are n
 -----------------------------
 1. Download or clone the repository.
 2. Download the LANmic and IP Webcam android mobile application.
-3. Turn on the LANmic and IP Webcam mobile application, and note the IP addresses shown in two mobile applications.
+3. Turn on the LANmic(set sample rate as 16,000) and IP Webcam mobile application, and note the IP addresses shown in two mobile applications.
 4. Create an account for uBeac IoT Platform here: [uBeac](https://app.ubeac.io/ "uBeac link")
 5. Create a gateway with UID, Name, and choose uBeac Multiple Devices as a firmware.
 6. Move to the command prompt.
@@ -52,8 +52,8 @@ These days, security and privacy policy issues are rising. A lot of people are n
 
 5.Contribution
 ----------------
-* I additionally implemented alarm system in the sound detector and live camera operation. 
-I also modified few mathematical expressions and added unit for each sensor in the sound detector program for the better performance and readability.
+* I additionally implemented an alarm system in the sound detector and live camera operation. 
+I also modified few mathematical expressions/errors and added unit for each sensor in the sound detector program for the better performance and readability.
 
 6.Where can I get more help?
 ------------------------------
