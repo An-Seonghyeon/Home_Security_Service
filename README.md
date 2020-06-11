@@ -5,6 +5,7 @@ Presentation video URL:
 1.What does this project do?
 -------------------------------
 This is a program to check the sound level (amplitude, frequency, max peak) of the surrounding environment in real time.
+If the decibel of the surrounding area is more than 800dB, the program will automatically send the email to warn the current situation.
 It also displays the real time situation of the surrounding environment through the camera.
 All the detailed data are shown in user customized dashboard in uBEAC website.
 
@@ -35,7 +36,7 @@ These days, security and privacy policy issues are rising. A lot of people are n
 17. Go to Dashboards section in [uBeac](https://app.ubeac.io/ "uBeac link").
 18. In the dashboard, drag raw file for a widget and go to setting option.
 19. In advanced setting, paste the copied html code.
-20. Check the dashboard with data.
+20. Check the dashboard with data and warning email.
 
 4.What is used in the project?
 ----------------------------------
