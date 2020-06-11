@@ -1,9 +1,10 @@
 import time
 import smtplib
 
-TO = '21900421@handong.edu'
-GMAIL_USER='an990906@gmail.com'
-PASS= 'dks598311'
+#emain account configuration section
+TO = '21900421@handong.edu' #email address to recieve the warning message
+GMAIL_USER='an990906@gmail.com' #google email address to to send the warning message
+PASS= 'dks598311' #password for google email account
 
 SUBJECT = 'Alert!'
 TEXT = 'Your area is too noisy! Be careful!'
