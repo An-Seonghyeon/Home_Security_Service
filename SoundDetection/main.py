@@ -12,14 +12,14 @@ framerate = 8000
 time_streaming = 5
 stream_length = time_streaming * 4
 nframes = int(stream_length * framerate / 4)
-file_location = "/home/pi/SoundDetection/recordings.wav"
+file_location = "/home/pi/SoundDetection/recordings.wav" #file path or name where you would save the sound recording in wav file
 
-# Configuration section
-UBEAC_URL = 'simonan.hub.ubeac.io'
-GATEWAY_URL = '/SoundDetector'
-DEVICE_FRIENDLY_NAME = 'Sound Detector'
+# Configuration section for uBEAC setting
+UBEAC_URL = 'simonan.hub.ubeac.io' #uBeac URL
+GATEWAY_URL = '/SoundDetector' #gateway URL
+DEVICE_FRIENDLY_NAME = 'Sound Detector' #device name
 
-with urllib.request.urlopen('http://192.168.0.15:8080/') as r:
+with urllib.request.urlopen('http://192.168.0.15:8080/') as r: #update IP address from LANmic mobile application
     audio_start = r.read(44)
     while True:
         audio_add = r.read(framerate)
