@@ -1,6 +1,6 @@
 HOME SECURITY SERVICE
 ======================
-![Alt text](C:/Users/user/Desktop/cctv-thumbnail.jpg)
+![Alt text](/Users/user/Desktop/cctv-thumbnail.jpg)
 
 
 1.What does this project do?
