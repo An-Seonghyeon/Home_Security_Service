@@ -21,8 +21,8 @@ These days, security and privacy policy issues are rising. A lot of people are n
 5. Create a gateway with UID, Name, and choose uBeac Multiple Devices as a firmware
 6. Move to the command prompt
 7. Install modules for python program in the command prompt
-   :	pip install scipy
-   :	pip install numpy
+   <pre><code>{pip install scipy}</code></pre>
+   <pre><code>{pip install numpy}</code></pre>
 8. Move to SoundDetection directory
 9. Update the file location, configuration section, and IP address from LANmic in main.py
 10. Go to move 
