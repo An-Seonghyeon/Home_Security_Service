@@ -2,11 +2,13 @@ import json
 import http.client
 from _util import get_sensor
 import urllib.request
+from alarm import send_mail
 import math
 import scipy.io.wavfile
 from scipy.fftpack import fft, fftfreq
 import numpy as np
 import struct
+import time
 
 framerate = 8000
 time_streaming = 5
@@ -66,4 +68,6 @@ with urllib.request.urlopen('http://192.168.0.15:8080/') as r: #update IP addres
         connection.request('POST', GATEWAY_URL, json.dumps(device))
         response = connection.getresponse()
         print(response.read().decode())
-
+        
+        if locmaxfreq > 800:
+            send_mail()
