@@ -38,7 +38,7 @@ with urllib.request.urlopen('http://192.168.0.15:8080/') as r: #update IP addres
         rate, data = scipy.io.wavfile.read(file_location)
 
         rms_amp = np.sqrt(np.mean(np.square(data)))
-        logrms_amp = abs(round(20 * math.log10(rms_amp)))
+        logrms_amp = round(abs(20 * math.log10(rms_amp)))
 
         Amplitude = get_sensor("Average Amplitude", {"Amplitude": str(logrms_amp)})
 
@@ -69,6 +69,6 @@ with urllib.request.urlopen('http://192.168.0.15:8080/') as r: #update IP addres
         response = connection.getresponse()
         print(response.read().decode())
         
-        if logrms_amp > 40:
+        if logrms_amp > 30:
             send_mail()
 
