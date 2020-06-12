@@ -38,7 +38,7 @@ with urllib.request.urlopen('http://192.168.0.15:8080/') as r: #update IP addres
         rate, data = scipy.io.wavfile.read(file_location)
 
         rms_amp = np.sqrt(np.mean(np.square(data)))
-        logrms_amp = abs(20 * math.log10(rms_amp))
+        logrms_amp = abs(round(20 * math.log10(rms_amp)))
 
         Amplitude = get_sensor("Average Amplitude", {"Amplitude": str(logrms_amp)})
 
@@ -49,7 +49,7 @@ with urllib.request.urlopen('http://192.168.0.15:8080/') as r: #update IP addres
 
         peakfreq = np.max(fftabs)
         locmaxfreq = np.argmax(fftabs)
-        freqmax = freqspos[locmaxfreq]
+        freqmax = round(freqspos[locmaxfreq])
 
         Frequency = get_sensor("Frequency", {"Max Frequency" : str(freqmax)})
         Peak = get_sensor("Max Peak", {"Amplitude" : str(locmaxfreq)})
