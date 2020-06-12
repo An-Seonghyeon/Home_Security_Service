@@ -5,7 +5,7 @@ Presentation video URL: <https://drive.google.com/drive/folders/1olCBgL0yhN92Nca
 1.What does this project do?
 -------------------------------
 This is a program to check the sound level (amplitude, frequency, max peak) of the surrounding environment in real time.
-If the decibel of the surrounding area is more than 40dB, the program will automatically send the email to warn the current situation.
+If the decibel of the surrounding area is more than 30dB, the program will automatically send the email to warn the current situation.
 It also displays the real time situation of the surrounding environment through the camera.
 All the detailed data are shown in user customized dashboard in uBEAC website.
 
