@@ -52,12 +52,15 @@ These days, security and privacy policy issues are rising. A lot of people are n
 
 5.Contribution
 ----------------
-* I additionally implemented an alarm system in the sound detector and live camera operation. 
-I also modified few mathematical expressions/errors and added unit for each sensor in the sound detector program for the better performance and readability.
+* I additionally implemented an e-mail alarm system in the sound detector program and live camera operation.
+I also modified few mathematical expressions/errors. Since the amplitude can only be expressed as positive, I modified some expressions.
+I added unit for each sensor in the sound detector program for the better performance and readability.
 
 6.Where can I get more help?
 ------------------------------
 * Use of uBEAC: <https://www.hackster.io/amir-pournasserian/how-to-monitor-your-computer-with-ubeac-b20fdb/>
 * Use of HTML Language: <https://developer.mozilla.org/ko/docs/Web/HTML/>
+* Sound Detector Program: <https://www.hackster.io/amir-pournasserian/diy-sound-detector-w-android-raspberry-pi-08282c>
+* Live Camera Program: <https://www.hackster.io/amir-pournasserian/wireless-security-camera-system-with-raspberry-pi-android-981bcd>
 * If you have any questions or find any errors of the program, please contact me at <21900421@handong.edu>
 
